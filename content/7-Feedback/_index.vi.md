@@ -7,36 +7,56 @@ pre: " <b> 7. </b> "
 ---
 
 
->Tại đây bạn có thể tự do đóng góp ý kiến cá nhân về những trải nghiệm khi tham gia chương trình First Cloud Journey, giúp team FCJ cải thiện những vấn đề còn thiếu sót dựa trên các hạng mục sau:
+> Đây là phần chia sẻ trải nghiệm cá nhân của tôi sau khi hoàn thành lộ trình thực tập từ giai đoạn làm quen AWS đến tích hợp chatbot và kiểm thử tổng thể.
 
 ### Đánh giá chung
 
-**1. Môi trường làm việc**  
-Môi trường làm việc rất thân thiện và cởi mở. Các thành viên trong FCJ luôn sẵn sàng hỗ trợ khi mình gặp khó khăn, kể cả ngoài giờ làm việc. Không gian làm việc gọn gàng, thoải mái, giúp mình tập trung tốt hơn. Tuy nhiên, mình nghĩ có thể bổ sung thêm một số buổi giao lưu hoặc team bonding để mọi người hiểu nhau hơn.
+**1. Môi trường làm việc**
+Môi trường làm việc thân thiện, cởi mở và có tính thực chiến cao. Các thành viên trong nhóm luôn sẵn sàng hỗ trợ khi có vướng mắc về kỹ thuật hoặc quy trình. Việc được tham gia trực tiếp vào các hạng mục thật giúp tôi học nhanh và hiểu sâu hơn.
 
-**2. Sự hỗ trợ của mentor / team admin**  
-Mentor hướng dẫn rất chi tiết, giải thích rõ ràng khi mình chưa hiểu và luôn khuyến khích mình đặt câu hỏi. Team admin hỗ trợ các thủ tục, tài liệu và tạo điều kiện để mình làm việc thuận lợi. Mình đánh giá cao việc mentor cho phép mình thử và tự xử lý vấn đề thay vì chỉ đưa đáp án.
+**2. Sự hỗ trợ của mentor / team admin**
+Mentor hỗ trợ sát sao và định hướng đúng trọng tâm. Thay vì chỉ đưa đáp án, mentor thường đặt câu hỏi để tôi tự phân tích nguyên nhân và chọn giải pháp phù hợp. Cách hướng dẫn này giúp tôi tiến bộ rõ rệt về tư duy hệ thống và xử lý sự cố.
 
-**3. Sự phù hợp giữa công việc và chuyên ngành học**  
-Công việc mình được giao phù hợp với kiến thức mình đã học ở trường, đồng thời mở rộng thêm những mảng mới mà mình chưa từng được tiếp cận. Nhờ vậy, mình vừa củng cố kiến thức nền tảng, vừa học thêm kỹ năng thực tế.
+**3. Sự phù hợp giữa công việc và chuyên ngành học**
+Công việc phù hợp tốt với định hướng AI/cloud. Ngoài các đầu việc backend và cơ sở dữ liệu, tôi còn được thực hành các nội dung AI ứng dụng như chatbot, Bedrock, function calling và RAG.
 
-**4. Cơ hội học hỏi & phát triển kỹ năng**  
-Trong quá trình thực tập, mình học được nhiều kỹ năng mới như sử dụng công cụ quản lý dự án, kỹ năng làm việc nhóm, và cả cách giao tiếp chuyên nghiệp trong môi trường công ty. Mentor cũng chia sẻ nhiều kinh nghiệm thực tế giúp mình định hướng tốt hơn cho sự nghiệp.
+**4. Cơ hội học hỏi & phát triển kỹ năng**
+Trong quá trình thực tập, tôi phát triển được nhiều kỹ năng quan trọng:
 
-**5. Văn hóa & tinh thần đồng đội**  
-Văn hóa công ty rất tích cực: mọi người tôn trọng lẫn nhau, làm việc nghiêm túc nhưng vẫn vui vẻ. Khi có dự án gấp, mọi người cùng nhau cố gắng, hỗ trợ không phân biệt vị trí. Điều này giúp mình cảm thấy mình là một phần của tập thể, dù chỉ là thực tập sinh.
+* Thiết kế và chuẩn hóa cơ sở dữ liệu.
+* Tích hợp Prisma ORM và quản lý migration.
+* Triển khai thử nghiệm với EC2, kết nối RDS.
+* Thiết kế API, debug tích hợp và regression test.
+* Xây dựng chatbot có truy hồi ngữ cảnh bằng RAG.
 
-**6. Chính sách / phúc lợi cho thực tập sinh**  
-Công ty có hỗ trợ phụ cấp thực tập và tạo điều kiện về thời gian linh hoạt khi cần thiết. Ngoài ra, việc được tham gia các buổi đào tạo nội bộ là một điểm cộng lớn.
+**5. Văn hóa & tinh thần đồng đội**
+Văn hóa nhóm tích cực, tôn trọng lẫn nhau và tập trung vào kết quả. Khi có deadline gấp, các thành viên vẫn giữ tinh thần hỗ trợ và trao đổi rõ ràng. Tôi cảm thấy mình được tin tưởng giao việc và có vai trò thực sự trong dự án.
+
+**6. Chính sách / phúc lợi cho thực tập sinh**
+Lộ trình thực tập có mục tiêu theo từng tuần khá rõ ràng, giúp dễ theo dõi tiến độ. Cách tổ chức theo milestone giúp thực tập sinh cân bằng giữa việc học kiến thức mới và hoàn thành đầu việc thực tế.
 
 
 ### Một số câu hỏi khác
-- Điều bạn **hài lòng nhất** trong thời gian thực tập?  
-- Điều bạn nghĩ công ty **cần cải thiện** cho các thực tập sinh sau?  
-- Nếu giới thiệu cho bạn bè, bạn có **khuyên họ thực tập ở đây không**? Vì sao?  
+
+**Điều tôi hài lòng nhất**
+
+* Được tham gia trọn vẹn vòng đời phát triển: từ thiết kế, triển khai đến kiểm thử và ổn định.
+* Được thực hành các công nghệ cloud/AI trên bài toán thực tế.
+* Nhìn thấy sản phẩm tiến triển rõ ràng qua từng tuần.
+
+**Điều nên cải thiện cho các thực tập sinh sau**
+
+* Bổ sung mẫu tài liệu chuẩn cho kiến trúc, release note và bàn giao.
+* Có checklist sớm về bảo mật cloud và tối ưu chi phí.
+* Có một buổi riêng về chiến lược test và tự động hóa kiểm thử.
+
+**Có nên giới thiệu cho bạn bè không?**
+
+Có. Tôi sẵn sàng giới thiệu vì chương trình giúp thực tập sinh được làm việc thật, học nhanh và nhận được hỗ trợ chuyên môn tốt.
 
 
 ### Đề xuất & mong muốn
-- Bạn có đề xuất gì để cải thiện trải nghiệm trong kỳ thực tập?  
-- Bạn có muốn tiếp tục chương trình này trong tương lai?
-- Góp ý khác (tự do chia sẻ):
+
+* Tăng thêm các buổi technical review theo mốc để chia sẻ bài học giữa các nhóm.
+* Tổ chức thêm demo day để thực tập sinh trình bày quyết định kỹ thuật và kết quả.
+* Tôi mong muốn được tiếp tục tham gia các giai đoạn nâng cao của chương trình trong tương lai.

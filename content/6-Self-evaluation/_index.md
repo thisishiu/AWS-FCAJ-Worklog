@@ -6,34 +6,44 @@ chapter: false
 pre: " <b> 6. </b> "
 ---
 
-{{% notice warning %}}
-⚠️ **Note:** The information below is for reference purposes only. Please **do not copy it verbatim** into your report, including this warning.
-{{% /notice %}}
+During my internship period, I worked through a 12-week roadmap that started from AWS onboarding and project planning, then moved into backend architecture, database implementation, deployment, and AI chatbot integration.
 
-During my internship at **[Company/Organization Name]** from **[start date]** to **[end date]**, I had the opportunity to learn, practice, and apply the knowledge acquired in school to a real-world working environment.  
-I participated in **[briefly describe the main project or task]**, through which I improved my skills in **[list skills: programming, analysis, reporting, communication, etc.]**.  
+My core project contribution focused on an online cosmetic shop system with these major milestones:
 
-In terms of work ethic, I always strived to complete tasks well, complied with workplace regulations, and actively engaged with colleagues to improve work efficiency.
+* Designed and normalized the database schema (up to 3NF) and finalized ERD baseline.
+* Organized the backend into clear modules and integrated Prisma ORM.
+* Implemented and stabilized admin flows for inventory and promotion management.
+* Deployed and tested services on EC2 and connected Prisma to RDS.
+* Built chatbot capability in phases: base flow, Bedrock integration, function calling, and RAG enhancement.
+* Performed end-to-end and regression testing before final stabilization.
 
-To objectively reflect on my internship period, I would like to evaluate myself based on the following criteria:
+From this process, I improved both technical and collaboration skills, especially in API design, debugging, cloud-based deployment, and cross-module testing.
+
+To reflect my internship progress objectively, I evaluate myself with the criteria below:
 
 | No. | Criteria                            | Description                                                                                      | Good | Fair | Average |
 | --- | ----------------------------------- | ------------------------------------------------------------------------------------------------ | ---- | ---- | ------- |
-| 1   | **Professional knowledge & skills** | Understanding of the field, applying knowledge in practice, proficiency with tools, work quality | ✅    | ☐    | ☐       |
-| 2   | **Ability to learn**                | Ability to absorb new knowledge and learn quickly                                                | ☐    | ✅    | ☐       |
-| 3   | **Proactiveness**                   | Taking initiative, seeking out tasks without waiting for instructions                            | ✅    | ☐    | ☐       |
-| 4   | **Sense of responsibility**         | Completing tasks on time and ensuring quality                                                    | ✅    | ☐    | ☐       |
-| 5   | **Discipline**                      | Adhering to schedules, rules, and work processes                                                 | ☐    | ☐    | ✅       |
-| 6   | **Progressive mindset**             | Willingness to receive feedback and improve oneself                                              | ☐    | ✅    | ☐       |
-| 7   | **Communication**                   | Presenting ideas and reporting work clearly                                                      | ☐    | ✅    | ☐       |
-| 8   | **Teamwork**                        | Working effectively with colleagues and participating in teams                                   | ✅    | ☐    | ☐       |
-| 9   | **Professional conduct**            | Respecting colleagues, partners, and the work environment                                        | ✅    | ☐    | ☐       |
-| 10  | **Problem-solving skills**          | Identifying problems, proposing solutions, and showing creativity                                | ☐    | ✅    | ☐       |
-| 11  | **Contribution to project/team**    | Work effectiveness, innovative ideas, recognition from the team                                  | ✅    | ☐    | ☐       |
-| 12  | **Overall**                         | General evaluation of the entire internship period                                               | ✅    | ☐    | ☐       |
+| 1   | **Professional knowledge & skills** | Understanding cloud/back-end concepts, tool proficiency, and quality of delivered work            | ✅    | ☐    | ☐       |
+| 2   | **Ability to learn**                | Learning new technologies quickly (Prisma, RDS, Bedrock, RAG workflows)                           | ✅    | ☐    | ☐       |
+| 3   | **Proactiveness**                   | Taking initiative in proposing fixes, testing plans, and implementation approaches                 | ✅    | ☐    | ☐       |
+| 4   | **Sense of responsibility**         | Delivering assigned tasks on time with clear progress updates                                      | ✅    | ☐    | ☐       |
+| 5   | **Discipline**                      | Following team process, documentation habits, and agreed timelines                                 | ☐    | ✅    | ☐       |
+| 6   | **Progressive mindset**             | Receiving feedback positively and applying improvements in subsequent iterations                    | ✅    | ☐    | ☐       |
+| 7   | **Communication**                   | Reporting technical status and blockers clearly to teammates                                       | ☐    | ✅    | ☐       |
+| 8   | **Teamwork**                        | Collaborating smoothly across API, database, and integration tasks                                 | ✅    | ☐    | ☐       |
+| 9   | **Professional conduct**            | Respectful behavior, accountability, and constructive collaboration                                | ✅    | ☐    | ☐       |
+| 10  | **Contribution to project/team**    | Direct impact on project milestones across backend, cloud, and chatbot stages                     | ✅    | ☐    | ☐       |
+| 11  | **Overall**                         | End-to-end performance across the full internship roadmap                                          | ✅    | ☐    | ☐       |
 
 ### Needs Improvement
 
-* Strengthen discipline and strictly comply with the rules and regulations of the company or any organization  
-* Improve problem-solving thinking  
-* Enhance communication skills in both daily interactions and professional contexts, including handling situations effectively
+* Improve technical documentation quality so onboarding and handover become faster.
+* Strengthen estimation accuracy for complex features (especially AI-related integration tasks).
+* Increase test automation coverage to reduce manual regression workload.
+* Practice more concise communication in incident updates and weekly summaries.
+
+### Development Plan After Internship
+
+* Continue learning advanced AWS architecture and cost optimization patterns.
+* Build deeper understanding of production-grade observability and incident response.
+* Improve AI application design, especially retrieval quality and prompt evaluation methods.
