@@ -1,5 +1,5 @@
-baseURL = "https://haquanghieu.github.io/fcjai2026/"
-relativeURLs = true
+baseURL = "https://thisishiu.github.io/AWS-FCAJ-Worklog/"
+relativeURLs = false
 canonifyURLs = true
 defaultContentLanguage = "en"
 
