@@ -33,7 +33,6 @@ chapter: false
 
 1.  [Worklog](1-Worklog/)
 2.  [Proposal](2-Proposal/)
-<!-- 3.  [Translated Blogs](3-BlogsTranslated/) -->
 3.  [Events Participated](3-EventParticipated/)
 4.  [Workshop](4-Workshop/)
 5.  [Self-evaluation](5-Self-evaluation/)
