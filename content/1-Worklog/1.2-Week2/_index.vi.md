@@ -11,15 +11,16 @@ pre: " <b> 1.2. </b> "
 * Chốt được dự án cho nhóm.
 * Hiểu cơ bản các dịch vụ AWS.
 * Nhóm bàn sơ bộ về các dịch vụ AWS sẽ sử dụng trong dự án.
+* Thiết kế database xuyên suốt cả tuần.
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                                                                                                                                                      | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Họp nhóm đầu tuần để rà soát lại định hướng và phạm vi đề tài. <br> - Tổng hợp các ý tưởng còn đang cân nhắc, xác định ưu/nhược điểm của từng phương án. <br> - Thống nhất bộ tiêu chí chốt dự án gồm: tính khả thi, thời gian triển khai, độ phù hợp với năng lực hiện tại của từng thành viên nhóm.                                  | 12/01/2026   | 12/01/2026      |  |
-| 3   | - Nhóm chốt dự án Cosmtic và bắt đầu đi sâu vào dự án.<br> - Tìm hiểu tổng quan các nhóm dịch vụ AWS phục vụ cho dự án- Ghi chú chức năng cơ bản, trường hợp sử dụng phổ biến và chi phí dự kiến ở mức nhập môn.       | 13/01/2026   | 13/01/2026      |  |
-| 4   | - Nhóm thảo luận sơ bộ kiến trúc dự án, các thành phần và tính năng dự án. <br> - Chốt bản nháp danh sách dịch vụ dự kiến sử dụng trong dự án.                                            | 14/01/2026   | 14/01/2026      |  |
-| 5   | - Chốt đề tài chính thức của nhóm sau khi đã đối chiếu mục tiêu và khả năng từng thành viên và khả năng thực hiện (Cosmetic shop online). <br> - Phân chia hạng mục công việc cho từng thành viên (API, database schema, ...). <br> - Lập timeline ngắn hạn cho tuần kế tiếp để bắt đầu thực hiện.                       | 15/01/2026   | 15/01/2026      | |
-| 6   | - Tổng kết tuần, rà soát lại các quyết định đã thống nhất. <br> - Hoàn thiện biên bản họp nhóm và checklist công việc cần làm ngay trong tuần 3. <br> - Cập nhật tài liệu nội bộ để toàn bộ thành viên theo dõi tiến độ đồng bộ.                                                                                            | 16/01/2026   | 16/01/2026      | |
+| 2   | - Họp nhóm đầu tuần để rà soát lại định hướng và phạm vi đề tài. <br> - Tổng hợp các ý tưởng còn đang cân nhắc, xác định ưu/nhược điểm của từng phương án. <br> - Khởi tạo danh sách thực thể dữ liệu chính cho database.                                  | 12/01/2026   | 12/01/2026      |  |
+| 3   | - Nhóm chốt dự án Cosmtic và bắt đầu đi sâu vào dự án. <br> - Phác thảo ERD sơ bộ và xác định quan hệ giữa các bảng.       | 13/01/2026   | 13/01/2026      |  |
+| 4   | - Thảo luận kiến trúc dự án và mapping dịch vụ AWS. <br> - Chuẩn hóa bảng (1NF–3NF) và định nghĩa khóa chính/khóa ngoại.                                            | 14/01/2026   | 14/01/2026      |  |
+| 5   | - Hoàn thiện schema database cho các module chính (user, product, order, promotion). <br> - Rà soát ràng buộc dữ liệu và chỉ mục cơ bản.                       | 15/01/2026   | 15/01/2026      | |
+| 6   | - Tổng kết tuần, rà soát lại các quyết định đã thống nhất. <br> - Hoàn thiện ERD và ghi chú điểm mở rộng cho tuần 3. <br> - Cập nhật tài liệu nội bộ để toàn bộ thành viên theo dõi tiến độ đồng bộ.                                                                                            | 16/01/2026   | 16/01/2026      | |
 
 
 ### Kết quả đạt được tuần 2:
@@ -38,6 +39,11 @@ pre: " <b> 1.2. </b> "
   * Có bản nháp danh sách dịch vụ dự kiến dùng trong dự án.
   * Đã phân tích ưu/nhược điểm ở mức cơ bản cho từng lựa chọn.
   * Có định hướng kiến trúc ban đầu để bắt đầu triển khai.
+
+* Hoàn thiện thiết kế database xuyên suốt cả tuần:
+  * Có ERD cơ bản và quan hệ giữa các bảng chính.
+  * Schema được chuẩn hóa và có ràng buộc dữ liệu nền tảng.
+  * Đặt được nền tảng cho triển khai backend ở tuần 3.
 
 * Cải thiện khả năng phối hợp nhóm và tổ chức công việc:
   * Quy trình họp nhóm rõ ràng hơn, có biên bản và đầu việc cụ thể.

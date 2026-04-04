@@ -11,15 +11,16 @@ pre: " <b> 1.2. </b> "
 * Finalize the group project topic.
 * Build a basic understanding of AWS services.
 * Hold an initial team discussion on which AWS services will be used in the project.
+* Design the database across the entire week.
 
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                                                                                                                                                                                                              | Start Date | Completion Date | Reference Material |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ------------------ |
-| 2   | - Held a kickoff team meeting to review project direction and scope. <br> - Collected remaining candidate ideas and identified pros/cons for each option. <br> - Agreed on project-selection criteria: feasibility, implementation timeline, and fit with each member's current skill level.                                                                                                                                       | 12/01/2026 | 12/01/2026      | |
-| 3   | - Finalized the Cosmetic project direction and started deeper project planning. <br> - Reviewed AWS service groups relevant to the project. <br> - Documented basic functions, common use cases, and beginner-level cost considerations for selected services.                                                                                                                                                                              | 13/01/2026 | 13/01/2026      | |
-| 4   | - Conducted an initial discussion on project architecture, key components, and expected features. <br> - Finalized a draft list of AWS services planned for use in the project.                                                                                                                                                                                                                                                                | 14/01/2026 | 14/01/2026      | |
-| 5   | - Officially confirmed the group topic after aligning project goals with team capability (online cosmetic shop). <br> - Assigned work items to team members (API, database schema, and related modules). <br> - Prepared a short timeline for next week to begin practical implementation.                                                                                                                                             | 15/01/2026 | 15/01/2026      | |
-| 6   | - Closed the week by reviewing all agreed decisions. <br> - Completed meeting minutes and a checklist for immediate week-3 tasks. <br> - Updated internal documentation so all members can track progress consistently.                                                                                                                                                                                                                            | 16/01/2026 | 16/01/2026      | |
+| 2   | - Held a kickoff team meeting to review project direction and scope. <br> - Collected candidate ideas and identified pros/cons. <br> - Started the entity list for database design.                                                                                                                                       | 12/01/2026 | 12/01/2026      | |
+| 3   | - Finalized the Cosmetic project direction and started deeper planning. <br> - Drafted a preliminary ERD and defined key relationships.                                                                                                                                                                              | 13/01/2026 | 13/01/2026      | |
+| 4   | - Discussed project architecture and AWS service mapping. <br> - Normalized tables (1NF-3NF) and defined PK/FK.                                                                                                                                                                                                                                                                | 14/01/2026 | 14/01/2026      | |
+| 5   | - Completed the database schema for main modules (user, product, order, promotion). <br> - Reviewed constraints and baseline indexes.                                                                                                                                             | 15/01/2026 | 15/01/2026      | |
+| 6   | - Closed the week with review and documentation. <br> - Finalized ERD and noted scalability considerations for week 3. <br> - Updated internal documentation for team tracking.                                                                                                                                                                                                                            | 16/01/2026 | 16/01/2026      | |
 
 
 ### Week 2 Achievements:
@@ -38,6 +39,11 @@ pre: " <b> 1.2. </b> "
   * Created a draft service list for project implementation.
   * Analyzed basic pros and cons for each candidate service.
   * Established an initial architecture direction to start implementation.
+
+* Completed the full-week database design:
+  * Built a baseline ERD with core entities and relationships.
+  * Normalized the schema and defined essential constraints.
+  * Prepared the database foundation for week-3 backend work.
 
 * Improved team coordination and task organization:
   * Team meetings became more structured with minutes and actionable items.
