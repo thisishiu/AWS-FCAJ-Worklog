@@ -1,55 +1,31 @@
 ---
 title: "Worklog Tuần 4"
 date: 2026-01-26
-weight: 1
+weight: 1.4
 chapter: false
 pre: " <b> 1.4. </b> "
 ---
 
 ### Mục tiêu tuần 4:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Chia folder dự án thành các module để dễ quản lý.
+* Thêm Prisma vào dự án làm ORM kết nối database.
+* Ổn định kết nối database cho backend.
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Tổ chức lại cấu trúc dự án theo module (auth, product, order, admin). <br> - Thống nhất quy ước đặt tên và quy chuẩn code. | 26/01/2026   | 26/01/2026      | |
+| 3   | - Refactor code theo module và phân lớp (controller/service/repository). <br> - Dọn lại cấu trúc thư mục cho dễ bảo trì. | 27/01/2026   | 27/01/2026      | |
+| 4   | - Cài Prisma và khởi tạo file cấu hình. <br> - Kết nối Prisma với database local. | 28/01/2026   | 28/01/2026      | |
+| 5   | - Tạo Prisma schema từ ERD đã thống nhất. <br> - Run migration và generate Prisma Client. | 29/01/2026   | 29/01/2026      | |
+| 6   | - Thay thế một phần truy vấn thủ công bằng Prisma. <br> - Cập nhật tài liệu kỹ thuật nội bộ. | 30/01/2026   | 30/01/2026      | |
 
 
 ### Kết quả đạt được tuần 4:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+* Cấu trúc dự án rõ ràng theo module và dễ quản lý hơn.
+* Tích hợp Prisma thành công và kết nối database ổn định.
+* Hoàn thiện quy trình schema, migration và Prisma Client.
 
 

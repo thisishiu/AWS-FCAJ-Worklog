@@ -1,9 +1,9 @@
 ---
 title: "Self-Assessment"
 date: 2024-01-01
-weight: 6
+weight: 5
 chapter: false
-pre: " <b> 6. </b> "
+pre: " <b> 5. </b> "
 ---
 
 During my internship period, I worked through a 12-week roadmap that started from AWS onboarding and project planning, then moved into backend architecture, database implementation, deployment, and AI chatbot integration.

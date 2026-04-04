@@ -1,7 +1,7 @@
 ---
 title: "Worklog Tuần 3"
 date: 2026-01-19
-weight: 1
+weight: 1.3
 chapter: false
 pre: " <b> 1.3. </b> "
 ---
@@ -9,48 +9,24 @@ pre: " <b> 1.3. </b> "
 
 ### Mục tiêu tuần 3:
 
-* Kết nối, làm quen với các thành viên trong First Cloud Journey.
-* Hiểu dịch vụ AWS cơ bản, cách dùng console & CLI.
+* Hoàn thiện nền tảng backend cơ bản cho dự án.
+* Xây dựng module sản phẩm và danh mục.
+* Tạo luồng đặt hàng tối thiểu để test.
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Làm quen với các thành viên FCJ <br> - Đọc và lưu ý các nội quy, quy định tại đơn vị thực tập                                                                                             | 11/08/2025   | 11/08/2025      |
-| 3   | - Tìm hiểu AWS và các loại dịch vụ <br>&emsp; + Compute <br>&emsp; + Storage <br>&emsp; + Networking <br>&emsp; + Database <br>&emsp; + ... <br>                                            | 12/08/2025   | 12/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 4   | - Tạo AWS Free Tier account <br> - Tìm hiểu AWS Console & AWS CLI <br> - **Thực hành:** <br>&emsp; + Tạo AWS account <br>&emsp; + Cài AWS CLI & cấu hình <br> &emsp; + Cách sử dụng AWS CLI | 13/08/2025   | 13/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br>&emsp; + ... <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 14/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 15/08/2025   | 15/08/2025      | <https://cloudjourney.awsstudygroup.com/> |
+| 2   | - Khởi tạo cấu trúc backend và thiết lập thư mục chính. <br> - Chuẩn hóa quy ước đặt tên và route. | 19/01/2026   | 19/01/2026      | |
+| 3   | - Tạo module sản phẩm và danh mục với CRUD cơ bản. <br> - Viết validation cho input quan trọng. | 20/01/2026   | 20/01/2026      | |
+| 4   | - Tạo module giỏ hàng/đơn hàng mức tối thiểu. <br> - Thiết lập quan hệ dữ liệu cơ bản. | 21/01/2026   | 21/01/2026      | |
+| 5   | - Hoàn thiện API cho luồng đặt hàng cơ bản. <br> - Kiểm tra và sửa lỗi logic phát sinh. | 22/01/2026   | 22/01/2026      | |
+| 6   | - Viết tài liệu mô tả API và luồng dữ liệu. <br> - Tổng kết và lên danh sách việc cần làm tuần sau. | 23/01/2026   | 23/01/2026      | |
 
 
 ### Kết quả đạt được tuần 3:
 
-* Hiểu AWS là gì và nắm được các nhóm dịch vụ cơ bản: 
-  * Compute
-  * Storage
-  * Networking 
-  * Database
-  * ...
-
-* Đã tạo và cấu hình AWS Free Tier account thành công.
-
-* Làm quen với AWS Management Console và biết cách tìm, truy cập, sử dụng dịch vụ từ giao diện web.
-
-* Cài đặt và cấu hình AWS CLI trên máy tính bao gồm:
-  * Access Key
-  * Secret Key
-  * Region mặc định
-  * ...
-
-* Sử dụng AWS CLI để thực hiện các thao tác cơ bản như:
-
-  * Kiểm tra thông tin tài khoản & cấu hình
-  * Lấy danh sách region
-  * Xem dịch vụ EC2
-  * Tạo và quản lý key pair
-  * Kiểm tra thông tin dịch vụ đang chạy
-  * ...
-
-* Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+* Hoàn thiện các module backend nền tảng cho sản phẩm và danh mục.
+* Có luồng đặt hàng cơ bản hoạt động được.
+* Tài liệu API ban đầu và checklist tuần sau được chuẩn bị.
 
 

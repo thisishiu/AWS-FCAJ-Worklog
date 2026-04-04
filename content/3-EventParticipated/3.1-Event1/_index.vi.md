@@ -1,12 +1,10 @@
 ---
 title: "Event 1"
 date: 2024-01-01
-weight: 1
+weight: 3
 chapter: false
-pre: " <b> 4.1. </b> "
+pre: " <b> 3.1 </b> "
 ---
-
-
 
 # Bài thu hoạch “GenAI-powered App-DB Modernization workshop”
 
