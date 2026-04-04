@@ -20,13 +20,12 @@
 </style>
 <div class="ghContributors">
   {{ $url := .Get 0 }}
-  {{ with try (resources.GetRemote $url) }}
-    {{ with .Err }}
-      <div>Unable to load contributors.</div>
-    {{ else }}
-      {{ with .Value }}
-        {{ $contributors := . | transform.Unmarshal }}
-        {{ range $contributors }}
+  {{ $res := resources.GetRemote $url }}
+  {{ if or (not $res) $res.Err }}
+    <div>Unable to load contributors.</div>
+  {{ else }}
+    {{ $contributors := $res | transform.Unmarshal }}
+    {{ range $contributors }}
   <div>
     <img
       src="{{.avatar_url}}"
@@ -43,10 +42,6 @@
     <label><a href="{{.html_url}}">@{{.login}}</a></label>
     <span class="contributions">{{.contributions}} commits</span>
   </div>
-        {{ end }}
-      {{ end }}
     {{ end }}
-  {{ else }}
-    <div>Unable to load contributors.</div>
   {{ end }}
 </div>
