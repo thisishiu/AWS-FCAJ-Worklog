@@ -40,7 +40,7 @@ languageName = "Tiếng Việt"
 
 [[Languages.vi.menu.shortcuts]]
 name = "<i class='fab fa-facebook'></i> AWS Study Group"
-identifier = "AWS Study Group FB"
+identifier = "System Architecture Overview FB"
 url = "https://www.facebook.com/groups/awsstudygroupfcj/"
 weight = 20
 
