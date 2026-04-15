@@ -17,7 +17,7 @@ chapter: false
 
 &emsp; **Ngành:** Trí tuệ nhân tạo
 
-&emsp; **Lớp:** FPT-SS2
+&emsp; **MSSV:** SE196477
 
 &emsp; **Công ty thực tập:** Công ty TNHH Amazon Web Services Vietnam
 

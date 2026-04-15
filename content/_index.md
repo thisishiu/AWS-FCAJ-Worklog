@@ -19,7 +19,7 @@ chapter: false
 
 &emsp; **Major:** Artificial Intelligence
 
-&emsp; **Class:** FPT-SS2
+&emsp; **Student ID:** SE196477
 
 &emsp; **Internship Company:** Amazon Web Services Vietnam Co., Ltd.
 
